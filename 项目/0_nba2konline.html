@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+    <!-- 引入4个文件，必须注意导入顺序-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        *{margin:0px;padding:0px;}
+        .title{background:#000000;width:100%;
+            height:70px;position: relative;
+        }
+        .title .logo{width:116px;height:58px;display:block;
+            position:absolute;
+            left:200px;top:5px;
+        }
+        .title ul{
+            list-style: none;
+        }
+        .title ul li{
+            float:left;
+            font-size: 16px;
+            display: block;
+            width: 20%;
+            line-height: 70px;
+            color: #fff;
+            text-align: center;
+            font-family: "Microsoft Yahei";
+        }
+        .title .title_bar{
+            width:800px;
+            height:70px;
+            position: absolute;
+            left:400px;
+        }
+        .title .title_end{
+            color:#ffffff;
+            font-size: 5px;
+            position: absolute;
+            right:100px;top:5px;
+        }
+        ._body{
+            background-image: url(bg_top.jpg);
+            width:100%;height:602px;;
+            background-repeat:no-repeat;
+            position: relative;
+        }
+        ._body ._body1{
+            position: absolute;
+            left:240px;bottom:0px;
+            width:980px;
+            height:250px;
+            border:1px solid red;
+        }
+        .foot{
+            height:100px;
+            position: relative;
+            background:#d2d2d2;
+        }
+        .foot .footk1{
+            width:405px;
+            height:100px;
+            position: absolute;
+            left: 50px;
+        }
+        .foot .footk1 p{
+            font-size: 13px;
+            font-family: "Microsoft Yahei";
+            margin-left: 15px;
+            display: inline-block;
+            margin-top: 28px;
+            margin-bottom: 0;
+        }
+        .foot .footk1 ul{
+          list-style: none;
+        }
+        .foot .footk1 li{
+            display: block;
+            float: left;
+            width: 25%;
+            text-align: center;
+            line-height: 18px;
+            font-size:12px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+    <img class="logo" src="logo.png" alt=""/>
+    <div class="title_bar">
+    <ul>
+        <li><a href="">官网首页</a></li>
+        <li>游戏资料</li>
+        <li>活动中心</li>
+        <li>玩家互动</li>
+        <li>自主服务</li>
+    </ul>
+    </div>
+        <div class="title_end">
+        <span>亲爱的用户请<a href="">【登录】</a></span>
+        </div>
+    </div>
+    <div class="_body">
+        <div class="_body1">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <hr/>
+    <div class="foot">
+        <div class="footk1">
+            <p>健康游戏公告</p>
+            <ul>
+                <li>抵制不良游戏</li>
+                <li>拒绝盗版游戏</li>
+                <li>注意自我保护</li>
+                <li>谨防受骗上当</li>
+            </ul>
+            <ul>
+                <li>适度游戏益脑</li>
+                <li>沉迷游戏伤身</li>
+                <li>合理安排时间</li>
+                <li>享受健康生活</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
